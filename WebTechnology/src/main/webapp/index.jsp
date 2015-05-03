@@ -7,12 +7,12 @@
 <title>Search Country Info</title>
 </head>
 <body>
-	<form action="">
+	<form action="countryinfo" method="POST">
 		<label for="countryName">Enter the Name of country: </label>
-        <input type="text" id="countryName" name="countryName"><br />
-        <p> OR </p>
-        <label for="countryName">Enter the country code: </label>
-        <input type="text" id="countryCode" name="countryCode"><br />
+        <input type="text" name="countryName">
+        <!-- <p> OR </p>
+        <label for="countryCode">Enter the country code: </label>
+        <input type="text" id="countryCode" name="countryCode"><br /> -->
         <input type="submit" value="Submit"><br/>
 	</form>
 </body>
