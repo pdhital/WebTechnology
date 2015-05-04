@@ -32,6 +32,7 @@
 	</dependency>
 </dependencies>
 <build>
+		<finalName>WebTechnology</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
